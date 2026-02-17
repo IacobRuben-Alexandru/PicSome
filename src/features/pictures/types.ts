@@ -1,5 +1,7 @@
 export type Picture = {
-  id: string;
-  author: string;
-  download_url: string;
+    id: string;
+    author: string;
+    width: number;
+    height: number;
+    download_url: string;
 };
